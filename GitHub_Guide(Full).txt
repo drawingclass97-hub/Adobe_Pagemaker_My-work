@@ -1,0 +1,106 @@
+Upload file into github Repositories through "Git" OR, "GitHub Desktop" OR, "Maunaly/direct you can upload"
+
+
+Upload through git----
+https://www.youtube.com/watch?v=6hnoc0h9Lsg&list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb&index=9
+https://www.youtube.com/watch?v=tFAPuaeQqu4&t=304s
+
+Upload through GitHubDesktop----(for large project)
+Disadvantages:
+Always Here We have to create New folder on Desktop & then clone the Repositories and then copy
+the code or file from your main original folder location.
+Don't give the original file location where you have done your code otherwise it will replace 
+your original files like readme...
+
+https://www.youtube.com/watch?v=a28WGSNIEZc&list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb&index=8 (see that one)
+https://www.youtube.com/watch?v=eL7EOQ08-14&list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb&index=15
+https://www.youtube.com/watch?v=A2R-CMMyp64&list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb&index=2&t=301s
+
+Manual/direct Upload---(for small project)
+https://www.youtube.com/watch?v=xmK1Q5uzH4w&list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb&index=12
+
+-------------------------------------------
+For more detail follow this Youtube playlist-----
+https://www.youtube.com/playlist?list=PL0xmYJZV1DwDx8SlT70oug84M3PU1KEwb
+
+
+how can i live host a website on github---
+https://www.youtube.com/watch?v=4eMnz8VbgyM&t=305s
+
+GitHub Website apper on Google Search---
+https://www.youtube.com/watch?v=oBY4GA1GJCY&list=PL0xmYJZV1DwDjvQOfJjnIrKXLb1kx8tG5&index=2
+https://www.youtube.com/watch?v=Lm6D7o0PdXE&list=PL0xmYJZV1DwDjvQOfJjnIrKXLb1kx8tG5&index=1
+
+---------------------------------------
+For more detail follow this Youtube playlist-----
+https://www.youtube.com/playlist?list=PL0xmYJZV1DwDjvQOfJjnIrKXLb1kx8tG5
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>--#--<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+How to Upload file into github Repositories through "Git" (for large project)
+
+Atfirst, you have to create new repositories then add readme file 
+then go to there where is your project file present. 
+then right click and select "Git Bash here" and continue...
+
+//$ echo "# ProjectChallenge" >> README1.md //(do not need) [it is for create README]
+$ git init
+$ git status   //(to see status)
+$ git branch -M main   //you need to run(For convert master to main)
+//$ git branch -M master //do not need(For convert main to master)
+//$ git add README1.md  // do not need(it is for add one file) OR
+$ git add .         // (to add all files)
+$ git status
+$ git commit -m "message here" // (Insteed of message here you can type any thing)
+$ git remote add origin https://github.com/Souhardyagayen99/Online_Exam_System  //(you need to copy the https code) OR
+$ git remote add origin git@github.com:Souhardyagayen99/Online_Exam_System.git  // (you need to copy the ssh code)
+$ git status   //(to see status)
+//$ git push -u origin main //OR
+//$ git push -u origin master //OR
+//$ git push origin master //OR
+//$ git push origin main //OR
+//$ git push origin master --force //OR 
+$ git push origin main --force // (USE THAT FOR PUSH)
+
+It's Uploaded...
+now refresh and see github.  
+
+------------****--------------------------------
+To Work on Multiple GitHub Branches...
+$ git branch -M master //for create & switch on new branch OR, 
+$ git checkout -b master //for create new branch OR,
+$ git branch master //for create new branch
+
+Then add a folder/file in that branch using 
+$ git add . // (to add all files)
+and for commit 
+$ git commit -m "message here"
+and then push that folder/file to that repository using
+$ git push origin feature-branch --force 
+
+To change the branch on GitHub repository
+$ git branch -M master // for create & switch on new branch OR,
+$ git checkout master
+
+To merge the branches (we need to have the same no of content & all file name should be same)
+$ git merge master // OR,
+$ git merge --squash master
+
+For Deleting a Branch
+//$ git branch -d master // OR, (it is not working)
+$ git push origin --delete master // (used this one)
+
+git pull: This command is a combination of two Git commands: git fetch and git merge.
+$ git pull origin main
+--------------------------
+remove git init file from system
+rm -rf .git(ubuntu)
+Remove-Item -Recurse -Force .git(windows)
+or in windows manually you can delete .git file
+
+
+
+
+
+
+ 
